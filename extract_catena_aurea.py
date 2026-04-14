@@ -185,4 +185,4 @@ if __name__ == "__main__":
     print(f"Found {len(hits)} Catena Aurea entries for {book} {ch}:{v}")
     for h in hits[:3]:
         print("-", h["father_name"], h.get("append_to_author_name", "")[:30])
-        print(" ", h["quote"][:120], "...\n")
+        print(" ", h["quote"], "\n")
